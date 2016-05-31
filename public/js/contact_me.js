@@ -28,7 +28,7 @@ $(function() {
                     message: message
                     },
                 dataType: 'json',
-                url: "http://localhost:8080/endpoint",
+                url: "https://theshrimppawt.herokuapp.com/endpoint",
                 cache: false,
                 success: function() {
                     // Success message
