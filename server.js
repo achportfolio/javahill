@@ -2,6 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 var app = express();
+app.use(bodyParser.json());
 
 var port = process.env.PORT || 8080;
 
@@ -38,10 +39,10 @@ app.post('/endpoint', function(req, res) {
     
     smtpTrans.sendMail(mailOpts, function (error, response) {
         if (error) {
-            res.render('index', {msg: 'Error occured, sorry message not sent', err: true, page: 'index'})
+            res.render('index', {msg: 'Error occured, sorry message not sent', err: true, page: 'index.js'})
         }
         else {
-            res.render('index', {msg: 'Message sent, thank you!', err: false, page: 'index'})
+            res.render('index', {msg: 'Message sent, thank you!', err: false, page: 'index.js'})
         }
         });
     });

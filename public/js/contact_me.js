@@ -14,18 +14,21 @@ $(function() {
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
+            
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://theshrimppawt.herokuapp.com/endpoint",
+                
                 type: "POST",
                 data: {
                     name: name,
-                    phone: phone,
                     email: email,
+                    phone: phone,
                     message: message
-                },
+                    },
+                dataType: 'json',
+                url: "http://localhost:8080/endpoint",
                 cache: false,
                 success: function() {
                     // Success message
