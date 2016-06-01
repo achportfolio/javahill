@@ -27,8 +27,8 @@ $(function() {
                     phone: phone,
                     message: message
                     },
-                dataType: 'json',
-                url: "https://theshrimppawt.herokuapp.com/endpoint",
+                dataType: 'text',
+                url: "/endpoint",
                 cache: false,
                 success: function() {
                     // Success message
