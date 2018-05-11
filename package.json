@@ -1,7 +1,7 @@
 {
-  "name": "theShrimpPawt",
-  "description": "a simple website for the shrimp pawt venue",
-  "title": "The Shrimp Pawt",
+  "name": "hooTian",
+  "description": "a simple website for Hoo Tian's scultping",
+  "title": "Hoo Tian",
   "engines": {
     "node": "6.2.0",
     "npm": "3.8.6"

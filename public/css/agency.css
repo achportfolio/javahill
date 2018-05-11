@@ -1,9 +1,8 @@
 /*!
- * Agency v1.0.7 (http://startbootstrap.com/template-overviews/agency)
+ * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -51,13 +50,13 @@ h6 {
   margin: 0 auto;
 }
 .bg-light-gray {
-  background-color: #f7f7f7;
+  background-color: #eeeeee;
 }
 .bg-darkest-gray {
   background-color: #222222;
 }
 .btn-primary {
-  color: #ffffff;
+  color: white;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -69,7 +68,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
+  color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -98,10 +97,10 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #fed136;
-  background-color: #ffffff;
+  background-color: white;
 }
 .btn-xl {
-  color: #ffffff;
+  color: white;
   background-color: #fed136;
   border-color: #fed136;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -116,7 +115,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-  color: #ffffff;
+  color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
@@ -145,60 +144,61 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #fed136;
-  background-color: #ffffff;
+  background-color: white;
 }
-.navbar-default {
+.navbar-custom {
   background-color: #222222;
   border-color: transparent;
 }
-.navbar-default .navbar-brand {
+.navbar-custom .navbar-brand {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
   color: #fec503;
 }
-.navbar-default .navbar-collapse {
+.navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
-.navbar-default .navbar-toggle {
+.navbar-custom .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
 }
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
   background-color: #fed136;
 }
-.navbar-default .nav li a {
+.navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
   color: white;
 }
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
   color: #fed136;
   outline: none;
 }
-.navbar-default .navbar-nav > .active > a {
+.navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
   background-color: #fed136;
 }
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #fec503;
 }
 @media (min-width: 768px) {
-  .navbar-default {
+  .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
@@ -206,26 +206,28 @@ fieldset[disabled] .btn-xl.active {
     transition: padding 0.3s;
     border: none;
   }
-  .navbar-default .navbar-brand {
+  .navbar-custom .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-  .navbar-default .navbar-nav > .active > a {
+  .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
-  .navbar-default.navbar-shrink {
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
     background-color: #222222;
     padding: 10px 0;
   }
-  .navbar-default.navbar-shrink .navbar-brand {
+  .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
 header {
   background-image: url('../img/header-bg.jpg');
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -581,27 +583,27 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #bbbbbb;
+  color: #eeeeee;
 }
 section#contact .text-danger {
   color: #e74c3c;
@@ -650,6 +652,11 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: none;
+}
+.portfolio-modal .modal-dialog {
+  margin: 0;
+  height: 100%;
+  width: auto;
 }
 .portfolio-modal .modal-content {
   border-radius: 0;
