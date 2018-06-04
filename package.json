@@ -1,10 +1,10 @@
 {
-  "name": "hooTian",
-  "description": "a simple website for Hoo Tian's scultping",
-  "title": "Hoo Tian",
+  "name": "nodeHerokuTemplate",
+  "description": "a node template for fast hosting on heroku",
+  "title": "Node Heroku Template",
   "engines": {
-    "node": "6.2.0",
-    "npm": "3.8.6"
+    "node": "8.11.2",
+    "npm": "6.1.0"
     },
   "main": "server.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/theshrimppawt.git"
+    "url": "https://git.heroku.com/ludwigWwittgenstein.git"
   },
   "dependencies": {
     "ejs": "^1.0.0",
