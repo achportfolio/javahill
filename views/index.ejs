@@ -6,23 +6,23 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A great place to buy locally sourced coffee.">
+    <meta name="author" content="Java Hill">
 
-    <title>Shop Danni</title>
+    <title>Java Hill</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/javahill.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,37 +40,23 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container navContainer">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Dannie's Shop</a>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                	<img src="img/Bean.png">
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">About</a>
+                        <a class="page-scroll" href="#portfolio">Buy Coffee</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Products</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#checkout">Checkout</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -80,59 +66,62 @@
     <!-- Header -->
     <header>
         <div class="container">
+        	<img src="img/bean.png" id="beanR">
+        	<img src="img/bean.png" id="beanL">
             <div class="intro-text">
-                <div class="intro-heading" style="margin: auto auto 40px auto;width:320px;">
-                    <h1 style="font-size:54px;">Welcome to Dannie's</h1>
-                    <a href="#services" class="page-scroll btn btn-xl">take a look</a>
+                <div class="intro-heading">
+                    <h1>JH</h1>
+                    <p>Welcome to Java Hill <br> Where coffee beans matter</p>
+                </div>
+                <div  class="headerImg">
+                	<img src="img/cupHeat.png" >
                 </div>
             </div>
         </div>
     </header>
 
     <!-- Services Section -->
-    <section id="services">
+    <section id="services" class="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Danni's Shop</h2>
-                    <h3 class="section-subheading text-muted">A great place to buy products</h3>
+                    <h2 class="section-heading">Java Hill</h2>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <p class="text" style="text-align:left;margin-top:50px;font-size:20px;">Danni saw a need to sell products at an affordable price, made with quality materials. That's why he opnened Danni's Shop.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/client-pic.jpg" class="img-responsive" alt="">
-                    <p class="text-muted left">Dannie Shop Owner</p>
+            <div class="coffeeTop"> </div>
+            <div class="row text-center homeInfo">
+                <div class="col-md-12">
+                    <p class="Large" >We are an all organic,
+						locally sourced, coffe bean producer from the valleys of
+						Dubly, West Phallia. We take pride in making the best beans possible, so <br> you can take pride in serving <br> the best coffee possible.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Product Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <section id="portfolio" class="products" class="bg-light-gray">
         <div class="container">
+
+        	<!-- ROW ONE -->
+
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Products</h2>
-                    <h3 class="section-subheading text-muted">Find what works best for you.</h3>
+                    <h2 class="section-heading">Beans</h2>
+                    <h3 class="section-subheading green">Find the best beans for you</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <!--<div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        -->
-                        <img src="img/products/product-1.jpg" class="img-responsive" alt="">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                        <img src="img/products/coffee1.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="left">Clothing</h4>
-                        <p class="text-muted left">Medium Mens Wear Jacket.</p>
+                        <h4 class="left">Morning Blend</h4>
+                        <p class="left">A light morning roast to help start the day</p>
 
                         <!-- ADD TO CART FORM -->
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
@@ -144,51 +133,39 @@
                         <input type="hidden" name="add" value="1">
 
                         <!-- Specify details about the item that buyers will purchase. -->
-                        <input type="hidden" name="item_name" value="Birthday - Cake and Candle">
+                        <input type="hidden" name="item_name" value="Morning Blend Coffee">
                         <input type="hidden" name="currency_code" value="USD">
-
-                        <!-- Provide a drop-down menu option field. -->
-                        <div>
-                            <input type="hidden" name="on0" value="Color">
-                            <label for="os0">Color</label>
-                                <select name="os0" id="os0">
-                                    <option value="Select a color scheme">
-                                        -- Select a color --</option>
-                                    <option value="Blue">Blue</option>
-                                    <option value="Pink">Grey</option>
-                                    <option value="Yellow">Black</option>
-                                </select>
-                        </div>
 
                         <!-- Provide a drop-down menu option field with prices. -->
                         <div>
                             <input type="hidden" name="on1" value="Size">
-                            <label for="os1">Size</label>
+                            <label for="os1">Amount</label>
                             <select name="os1" id="os1">
                                 <option
-                                    value="Select a size">-- Select a size --</option>
-                                <option value="2x4">Small  - $13.95 USD</option>
-                                <option value="3x5">Medium - $17.95 USD</option>
-                                <option value="4x6">Large  - $20.95 USD</option>
+                                    value="Select a size">Select an amount</option>
+                                <option value="2x4">1 Pound  - $5  USD</option>
+                                <option value="3x5">4 Pound  - $10 USD</option>
+                                <option value="4x6">8 Pound  - $20 USD</option>
                             </select>
 
                             <!-- Specify the price that PayPal uses for each option. -->
                             <input type="hidden" name="option_index" value="1">
-                            <input type="hidden" name="option_select0" value="2x4">
-                            <input type="hidden" name="option_amount0" value="3.95">
-                            <input type="hidden" name="option_select1" value="3x5">
-                            <input type="hidden" name="option_amount1" value="4.95">
-                            <input type="hidden" name="option_select2" value="4x6">
-                            <input type="hidden" name="option_amount2" value="5.95">
+                            <input type="hidden" name="option_select0" value="4">
+                            <input type="hidden" name="option_amount0" value="4">
+                            <input type="hidden" name="option_select1" value="10">
+                            <input type="hidden" name="option_amount1" value="10">
+                            <input type="hidden" name="option_select2" value="20">
+                            <input type="hidden" name="option_amount2" value="20">
                         </div>
 
                         <!-- Display the payment button. -->
                         <span>
+                        	<img src="img/buttons/addButton.png">
                             <input type="image" name="submit"
-                                src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                                alt="Add to Cart">
+                                src="img/buttons/addButton.png"
+                                alt="Add to Cart" disabled>
                             <img alt="" width="1" height="1"
-                                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+                                src="img/buttons/addButton.png" >
                         </span>
                     </form>
 
@@ -198,75 +175,60 @@
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <!--<div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        -->
-                        <img src="img/products/product-2.jpg" class="img-responsive" alt="">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                        <img src="img/products/coffee2.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="left">Elctronics</h4>
-                        <p class="text-muted left">Quality Flourescent Lightbulbs.</p>
+                        <h4 class="left">Midday Blend</h4>
+                        <p class="left">A tasty medium roast to help you wake after lunch</p>
 
                         <!-- ADD TO CART FORM -->
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
-                        <!-- Identify your business so that you can collect the payments. -->
-                        <input type="hidden" name="business" value="kin@kinskards.com">
+	                        <!-- Identify your business so that you can collect the payments. -->
+	                        <input type="hidden" name="business" value="kin@kinskards.com">
 
-                        <!-- Specify an Add to Cart button. -->
-                        <input type="hidden" name="cmd" value="_cart">
-                        <input type="hidden" name="add" value="1">
+	                        <!-- Specify an Add to Cart button. -->
+	                        <input type="hidden" name="cmd" value="_cart">
+	                        <input type="hidden" name="add" value="1">
 
-                        <!-- Specify details about the item that buyers will purchase. -->
-                        <input type="hidden" name="item_name" value="Birthday - Cake and Candle">
-                        <input type="hidden" name="currency_code" value="USD">
+	                        <!-- Specify details about the item that buyers will purchase. -->
+	                        <input type="hidden" name="item_name" value="Midday Blend Coffee">
+	                        <input type="hidden" name="currency_code" value="USD">
 
-                        <!-- Provide a drop-down menu option field. -->
-                        <div>
-                            <input type="hidden" name="on0" value="Color">
-                            <label for="os0">Color</label>
-                                <select name="os0" id="os0">
-                                    <option value="Select a color scheme">
-                                        -- Select a color --</option>
-                                    <option value="Blue">White</option>
-                                    <option value="Pink">Blue</option>
-                                    <option value="Yellow">Red</option>
-                                </select>
-                        </div>
+	                        <!-- Provide a drop-down menu option field with prices. -->
+	                        <div>
+	                            <input type="hidden" name="on1" value="Size">
+	                            <label for="os1">Amount</label>
+	                            <select name="os1" id="os1">
+	                                <option
+	                                    value="Select a size">Select an amount</option>
+	                                <option value="2x4">1 Pound  - $5  USD</option>
+	                                <option value="3x5">4 Pound  - $10 USD</option>
+	                                <option value="4x6">8 Pound  - $20 USD</option>
+	                            </select>
 
-                        <!-- Provide a drop-down menu option field with prices. -->
-                        <div>
-                            <input type="hidden" name="on1" value="Size">
-                            <label for="os1">Amount</label>
-                            <select name="os1" id="os1">
-                                <option
-                                    value="Select a size">-- Select an amount --</option>
-                                <option value="2x4">4 Bulbs   - $15.95 USD</option>
-                                <option value="3x5">8 Bulbs   - $19.95 USD</option>
-                                <option value="4x6">12 Bulbs  - $23.95 USD</option>
-                            </select>
+	                            <!-- Specify the price that PayPal uses for each option. -->
+	                            <input type="hidden" name="option_index" value="1">
+	                            <input type="hidden" name="option_select0" value="4">
+	                            <input type="hidden" name="option_amount0" value="4">
+	                            <input type="hidden" name="option_select1" value="10">
+	                            <input type="hidden" name="option_amount1" value="10">
+	                            <input type="hidden" name="option_select2" value="20">
+	                            <input type="hidden" name="option_amount2" value="20">
+	                        </div>
 
-                            <!-- Specify the price that PayPal uses for each option. -->
-                            <input type="hidden" name="option_index" value="1">
-                            <input type="hidden" name="option_select0" value="2x4">
-                            <input type="hidden" name="option_amount0" value="3.95">
-                            <input type="hidden" name="option_select1" value="3x5">
-                            <input type="hidden" name="option_amount1" value="4.95">
-                            <input type="hidden" name="option_select2" value="4x6">
-                            <input type="hidden" name="option_amount2" value="5.95">
-                        </div>
-
-                        <!-- Display the payment button. -->
-                        <span>
-                            <input type="image" name="submit"
-                                src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                                alt="Add to Cart">
-                            <img alt="" width="1" height="1"
-                                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-                        </span>
-                    </form>
+	                        <!-- Display the payment button. -->
+	                        <span>
+	                            <img src="img/buttons/addButton.png">
+	                            <input type="image" name="submit"
+	                                src="img/buttons/addButton.png"
+	                                alt="Add to Cart" disabled>
+	                            <img alt="" width="1" height="1"
+	                                src="img/buttons/addButton.png" >
+	                        </span>
+                    	</form>
 
                     </div>
                 </div>
@@ -274,96 +236,268 @@
 
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <!--<div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        -->
-                        <img src="img/products/product-3.jpg" class="img-responsive" alt="">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                    	<img src="img/products/coffee3.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4 class="left">Gardening</h4>
-                        <p class="text-muted left">A quality Red Rose.</p>
+                        <h4 class="left">Midnight Blend</h4>
+                        <p class=" left">A powerful dark roast for pushing through late night projects</p>
 
                         <!-- ADD TO CART FORM -->
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
                         <!-- Identify your business so that you can collect the payments. -->
-                        <input type="hidden" name="business" value="kin@kinskards.com">
+	                        <input type="hidden" name="business" value="kin@kinskards.com">
 
-                        <!-- Specify an Add to Cart button. -->
-                        <input type="hidden" name="cmd" value="_cart">
-                        <input type="hidden" name="add" value="1">
+	                        <!-- Specify an Add to Cart button. -->
+	                        <input type="hidden" name="cmd" value="_cart">
+	                        <input type="hidden" name="add" value="1">
 
-                        <!-- Specify details about the item that buyers will purchase. -->
-                        <input type="hidden" name="item_name" value="Birthday - Cake and Candle">
-                        <input type="hidden" name="currency_code" value="USD">
+	                        <!-- Specify details about the item that buyers will purchase. -->
+	                        <input type="hidden" name="item_name" value="Midnight Blend Coffee">
+	                        <input type="hidden" name="currency_code" value="USD">
 
-                        <!-- Provide a drop-down menu option field. -->
-                        <div>
-                            <input type="hidden" name="on0" value="Color">
-                            <label for="os0">Color</label>
-                                <select name="os0" id="os0">
-                                    <option value="Select a color scheme">
-                                        -- Select a color --</option>
-                                    <option value="Blue">Red</option>
-                                    <option value="Pink">White</option>
-                                    <option value="Yellow">yellow</option>
-                                </select>
-                        </div>
+	                        <!-- Provide a drop-down menu option field with prices. -->
+	                        <div>
+	                            <input type="hidden" name="on1" value="Size">
+	                            <label for="os1">Amount</label>
+	                            <select name="os1" id="os1">
+	                                <option
+	                                    value="Select a size">Select an amount</option>
+	                                <option value="2x4">1 Pound  - $5  USD</option>
+	                                <option value="3x5">4 Pound  - $10 USD</option>
+	                                <option value="4x6">8 Pound  - $20 USD</option>
+	                            </select>
 
-                        <!-- Provide a drop-down menu option field with prices. -->
-                        <div>
-                            <input type="hidden" name="on1" value="Size">
-                            <label for="os1">Size</label>
-                            <select name="os1" id="os1">
-                                <option
-                                    value="Select a size">-- Select a size --</option>
-                                <option value="2x4">3 Roses   - $13.95 USD</option>
-                                <option value="3x5">6 Roses   - $17.95 USD</option>
-                                <option value="4x6">12 Roses  - $20.95 USD</option>
-                            </select>
+	                            <!-- Specify the price that PayPal uses for each option. -->
+	                            <input type="hidden" name="option_index" value="1">
+	                            <input type="hidden" name="option_select0" value="4">
+	                            <input type="hidden" name="option_amount0" value="4">
+	                            <input type="hidden" name="option_select1" value="10">
+	                            <input type="hidden" name="option_amount1" value="10">
+	                            <input type="hidden" name="option_select2" value="20">
+	                            <input type="hidden" name="option_amount2" value="20">
+	                        </div>
+	                        <!-- Display the payment button. -->
+	                        <span>
+	                            <img src="img/buttons/addButton.png">
+	                            <input type="image" name="submit"
+                                src="img/buttons/addButton.png"
+                                alt="Add to Cart" disabled>
+	                            <img alt="" width="1" height="1"
+	                                src="img/buttons/addButton.png" >
+	                        </span>
+                    	</form>
 
-                            <!-- Specify the price that PayPal uses for each option. -->
-                            <input type="hidden" name="option_index" value="1">
-                            <input type="hidden" name="option_select0" value="2x4">
-                            <input type="hidden" name="option_amount0" value="3.95">
-                            <input type="hidden" name="option_select1" value="3x5">
-                            <input type="hidden" name="option_amount1" value="4.95">
-                            <input type="hidden" name="option_select2" value="4x6">
-                            <input type="hidden" name="option_amount2" value="5.95">
-                        </div>
+                    </div>
+                </div>
 
-                        <!-- Display the payment button. -->
-                        <span>
-                            <input type="image" name="submit"
-                                src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
-                                alt="Add to Cart">
-                            <img alt="" width="1" height="1"
-                                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-                        </span>
-                    </form>
+            <!-- ROW TWO -->
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                        <img src="img/products/coffee4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="left">Milk Chocolate Blend</h4>
+                        <p class="left">A delicious and light milk chocolate roast</p>
+
+                        <!-- ADD TO CART FORM -->
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
+	                        <!-- Identify your business so that you can collect the payments. -->
+	                        <input type="hidden" name="business" value="kin@kinskards.com">
+
+	                        <!-- Specify an Add to Cart button. -->
+	                        <input type="hidden" name="cmd" value="_cart">
+	                        <input type="hidden" name="add" value="1">
+
+	                        <!-- Specify details about the item that buyers will purchase. -->
+	                        <input type="hidden" name="item_name" value="Milk Chocolate Blend">
+	                        <input type="hidden" name="currency_code" value="USD">
+
+	                        <!-- Provide a drop-down menu option field with prices. -->
+	                        <div>
+	                            <input type="hidden" name="on1" value="Size">
+	                            <label for="os1">Amount</label>
+	                            <select name="os1" id="os1">
+	                                <option
+	                                    value="Select a size">Select an amount</option>
+	                                <option value="2x4">1 Pound  - $5  USD</option>
+	                                <option value="3x5">4 Pound  - $10 USD</option>
+	                                <option value="4x6">8 Pound  - $20 USD</option>
+	                            </select>
+
+	                            <!-- Specify the price that PayPal uses for each option. -->
+	                            <input type="hidden" name="option_index" value="1">
+	                            <input type="hidden" name="option_select0" value="4">
+	                            <input type="hidden" name="option_amount0" value="4">
+	                            <input type="hidden" name="option_select1" value="10">
+	                            <input type="hidden" name="option_amount1" value="10">
+	                            <input type="hidden" name="option_select2" value="20">
+	                            <input type="hidden" name="option_amount2" value="20">
+	                        </div>
+
+	                        <!-- Display the payment button. -->
+	                        <span>
+	                            <img src="img/buttons/addButton.png">
+	                            <input type="image" name="submit"
+	                                src="img/buttons/addButton.png"
+	                                alt="Add to Cart" disabled>
+	                            <img alt="" width="1" height="1"
+	                                src="img/buttons/addButton.png" >
+	                        </span>
+                    	</form>
 
                     </div>
                 </div>
 
 
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                        <img src="img/products/coffee5.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="left">Chocolate Blend</h4>
+                        <p class="left">A tasty choolate blend for sweet tooths and choclate lovers</p>
+
+                        <!-- ADD TO CART FORM -->
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
+	                        <!-- Identify your business so that you can collect the payments. -->
+	                        <input type="hidden" name="business" value="kin@kinskards.com">
+
+	                        <!-- Specify an Add to Cart button. -->
+	                        <input type="hidden" name="cmd" value="_cart">
+	                        <input type="hidden" name="add" value="1">
+
+	                        <!-- Specify details about the item that buyers will purchase. -->
+	                        <input type="hidden" name="item_name" value="Chocolate Blend">
+	                        <input type="hidden" name="currency_code" value="USD">
+
+	                        <!-- Provide a drop-down menu option field with prices. -->
+	                        <div>
+	                            <input type="hidden" name="on1" value="Size">
+	                            <label for="os1">Amount</label>
+	                            <select name="os1" id="os1">
+	                                <option
+	                                    value="Select a size">Select an amount</option>
+	                                <option value="2x4">1 Pound  - $5  USD</option>
+	                                <option value="3x5">4 Pound  - $10 USD</option>
+	                                <option value="4x6">8 Pound  - $20 USD</option>
+	                            </select>
+
+	                            <!-- Specify the price that PayPal uses for each option. -->
+	                            <input type="hidden" name="option_index" value="1">
+	                            <input type="hidden" name="option_select0" value="4">
+	                            <input type="hidden" name="option_amount0" value="4">
+	                            <input type="hidden" name="option_select1" value="10">
+	                            <input type="hidden" name="option_amount1" value="10">
+	                            <input type="hidden" name="option_select2" value="20">
+	                            <input type="hidden" name="option_amount2" value="20">
+	                        </div>
+
+	                        <!-- Display the payment button. -->
+	                        <span>
+	                            <img src="img/buttons/addButton.png">
+	                            <input type="image" name="submit"
+	                                src="img/buttons/addButton.png"
+	                                alt="Add to Cart" disabled>
+	                            <img alt="" width="1" height="1"
+	                                src="img/buttons/addButton.png" >
+	                        </span>
+                    	</form>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    	<div class="orderCard">
+                    		<p>Check your order below!</p>
+                    	</div>
+                    	<img src="img/products/coffee6.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4 class="left">Dark Chocolate Blend</h4>
+                        <p class=" left">A powerful dark chocolate roast with a bold flavor</p>
+
+                        <!-- ADD TO CART FORM -->
+                        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="addToCartForm">
+	                        <!-- Identify your business so that you can collect the payments. -->
+	                        <input type="hidden" name="business" value="kin@kinskards.com">
+
+	                        <!-- Specify an Add to Cart button. -->
+	                        <input type="hidden" name="cmd" value="_cart">
+	                        <input type="hidden" name="add" value="1">
+
+	                        <!-- Specify details about the item that buyers will purchase. -->
+	                        <input type="hidden" name="item_name" value="Dark Chocolate Blend">
+	                        <input type="hidden" name="currency_code" value="USD">
+
+	                        <!-- Provide a drop-down menu option field with prices. -->
+	                        <div>
+	                            <input type="hidden" name="on1" value="Size">
+	                            <label for="os1">Amount</label>
+	                            <select name="os1" id="os1">
+	                                <option
+	                                    value="Select a size">Select an amount</option>
+	                                <option value="2x4">1 Pound  - $5  USD</option>
+	                                <option value="3x5">4 Pound  - $10 USD</option>
+	                                <option value="4x6">8 Pound  - $20 USD</option>
+	                            </select>
+
+	                            <!-- Specify the price that PayPal uses for each option. -->
+	                            <input type="hidden" name="option_index" value="1">
+	                            <input type="hidden" name="option_select0" value="4">
+	                            <input type="hidden" name="option_amount0" value="4">
+	                            <input type="hidden" name="option_select1" value="10">
+	                            <input type="hidden" name="option_amount1" value="10">
+	                            <input type="hidden" name="option_select2" value="20">
+	                            <input type="hidden" name="option_amount2" value="20">
+	                        </div>
+	                        <!-- Display the payment button. -->
+	                        <span>
+	                            <img src="img/buttons/addButton.png">
+	                            <input type="image" name="submit"
+	                                src="img/buttons/addButton.png"
+	                                alt="Add to Cart" disabled>
+	                            <img alt="" width="1" height="1"
+	                                src="img/buttons/addButton.png" >
+	                        </span>
+                    	</form>
+
+                    </div>
+                </div>
             </div>
+
+
         </div>
     </section>
 
-    <!-- Payoal Checkout Section -->
-    <section id="Checkout" class="">
+    <!-- Paypal Checkout Section -->
+    <section id="checkout" class="checkout">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+            <div class="row text-center">
+            	<div class="col-lg-6 text-center">
+                    <h2 class="section-heading">Your Order</h2>
+                    <div class="col-lg-12 order">
+                        <h5>Make a coffee order and it will appear here</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center cellMargin">
                     <h2 class="section-heading">Checkout</h2>
                     <h3 class="section-subheading text-muted">Click the button to checkout</h3>
-                </div>
-            </div>
-            <div class="row" style="text-align: center;">
-                <div class="col-lg-12 portfolio-item">
+                    <div class="col-lg-12 portfolio-item">
                     <div class="portfolio-caption">
+
+                    	<div class="checkoutDiv"><p>total = $<span>0</span></p></div>
 
                         <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
@@ -380,17 +514,18 @@
 
                           <!-- Display the payment button. -->
                           <input type="image" name="submit" border="0"
-                          src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
-                          alt="Checkout with Paypal">
+                          src="img/buttons/buyButton.png"
+                          alt="Checkout with Paypal" >
                           <img alt="" border="0" width="1" height="1"
-                          src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+                          src="img/buttons/buyButton.png" >
 
                         </form>
 
                     </div>
                 </div>
             </div>
-        </div>
+                </div>
+            </div>
     </section>
     
     <!-- Contact Section -->
@@ -399,24 +534,15 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact</h2>
-                    <h3 class="section-subheading text-muted">Email to get in touch with Dannie.</h3>
+                    <h3 class="section-subheading text-muted">We'd love to answer your questions.</h3>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-12">
-                        <div class="row" style="text-align:center">
-                            <div class="col-lg-12">
-                                <div class="form-group">
-                                    <p class="help-block text" style="color:white;font-size:16px;">Dannie can be reached at client@client.com</p>
-                                </div>
-                                <div class="form-group">
-                                    <p class="help-block text" style="color:white;font-size:16px;">0000003 Venady st Mission Yieye, CA 00003</p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                            </div>
-                        </div>
+                    <div class="form-group">
+                        <p class="help-block text white">Reach us at 867-5309 or Javahill@jhill.com</p>
+                    </div>
+                    <div class="form-group">
+                        <p class="help-block text white">0000003 Venady st Mission Yieye, CA 00003</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -428,108 +554,13 @@
                 <div class="col-md-4">
                 </div>
                 <div class="col-md-4 left">
-                    <span class="copyright">Copyright &copy; Danniee Simpson 2018</span>
+                    <span class="copyright">Copyright &copy; Java Hill 2018</span>
                 </div>
                 <div class="col-md-4">
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
-
-    <!-- Portfolio Modal 1
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <-- Project Details Go Here 
-                            <h2>Erik Fest</h2>
-                            <p class="item-intro text-muted">An electronics extravaganza.</p>
-                            <img style="max-height:600px;" class="img-responsive img-centered" src="img/portfolio/erik-fest.jpg" alt="">
-                            <p>Erik Fest was an electronics based show set up for a returning Shrimp Pawt member. We tore up the night dancing and jumping.</p>
-                            <ul class="list-inline">
-                                <li>Date: March 4th, 2016</li>
-                                <li>Bands: Rambush, Butterfly, Dr Brutrum, Rustbones</li>
-                                <li>Category: Dance and Rock</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <-- Portfolio Modal 2 --
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Harm</h2>
-                            <p class="item-intro text-muted">A folk based set.</p>
-                            <img style="max-height:600px;" class="img-responsive img-centered" src="img/portfolio/harm-show.jpg" alt="">
-                            <p>The renowned Alaskan band Harm played, along with Headdressed--who uses samplers and loop pedals with their folk, as well as the wonderful Forever Agos.</p>
-                            <ul class="list-inline">
-                                <li>Date: January 13th, 2016</li>
-                                <li>Bands: Harm, Headdressed, The Forever Agos</li>
-                                <li>Category: Folk, Experimental</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <-- Portfolio Modal 3 --
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <-- Project Details Go Here --
-                            <h2>Abraham Lincoln</h2>
-                            <p class="item-intro text-muted">A great US President.</p>
-                            <img style="max-height:600px;" class="img-responsive img-centered" src="img/portfolio/sculpture-3.jpg" alt="">
-                            <p>A rendering of one of the greatest US presidents to live..</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    END OF MODALS-->
-
-
-
-
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -547,7 +578,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
+    <script src="js/javahill.js"></script>
 
 </body>
 
