@@ -44,5 +44,5 @@ app.post('/endpoint', function(req, res) {
 
 
 app.listen(port, function()  {
-    console.log('Our app is running on http://localhost' + port);
+    console.log('Java HIll is running on http://localhost' + port);
 });

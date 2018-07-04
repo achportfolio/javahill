@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  min-width: 375px;
 }
 .text-muted {
   color: #e0dbdb;
@@ -231,19 +232,11 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.png');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   text-align: center;
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 125px;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -778,22 +771,36 @@ ul.social-buttons li a:active {
   animation: fallingAnimation 7s ease-in infinite;
 }
 
+.coffeeMug {
+  width: 100%;
+  max-width: 526px;
+  z-index: 1;
+}
+
 header .container {
   overflow: hidden;
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .headerImg {
-  position: relative;
   width: 100%;
   margin: auto;
+  padding-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.headerImg img {
-  position: absolute;
-  left: 39%;
+.headerImg img:nth-child(1) {
+  width: 90%;
+  max-width: 300px;
   animation: hoverAnimation 2.8s ease-in-out infinite;
+  z-index: 2;
 }
 
 .intro-heading {
